@@ -1,0 +1,16 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+	<title>Text2Handwritten</title>
+</head>
+<body style='background-color:#eeeeee'>
+	<h1 id='header' style='background-color:#2e3436' align="center"> Text to Handwritten</h1>
+	<div id="container">
+		<button style='background-color:white' text-align="center" type="btn" id="btnclick" name="Click Me"  onclick="hand();"> Click here for Input </button>
+	</div>
+	<script src="{{ url_for('static', filename='home.js')}}";> </script>
+</body>
+</html>
